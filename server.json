@@ -1,0 +1,16 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.discover-dmc/paygentic",
+  "description": "Pay-per-call APIs for AI agents: web scraping, DNS/email checks, classification, trading risk.",
+  "repository": {
+    "url": "https://github.com/discover-dmc/paygentic",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.discoverdmc.cloud/mcp"
+    }
+  ]
+}
